@@ -1,0 +1,86 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+	fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+caption, th {
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+abbr, acronym {
+	border: 0;
+}
+
+body {
+	background: #fff;
+}
+/* optional Container STYLES */
+.chart {
+	height: 100%;
+	margin: 5px;
+	width: 100%;
+}
+
+.Treant>.node {
+	
+}
+
+.Treant>p {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+		"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.node-name {
+	    color: #ffffff;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 1.0em;
+    text-align: left;
+    margin-left: .5em;
+}
+
+.nodeExample1 {
+	padding: 0.2em;
+    font-family: 'Sintony', sans-serif;
+    font-size: 0.4em;
+    background-color: #cc3333;
+    border-bottom: 0.6em solid #7f0a04;
+    min-width: 27em;
+    height: 11em;
+    width: 21em;
+    box-shadow: 0 0 2em 0 rgb(226, 68, 5), 0 1.2em 4em 0 rgb(255, 255, 255);
+}
+.grey {	
+       background-color: #a7a1a1;
+    box-shadow: 0 0 2em 0 rgb(103, 95, 92), 0 1.2em 4em 0 rgb(255, 255, 255);
+    border-bottom: 0.6em solid #807c7c;
+}
+.nodeExample1 img {
+	margin-right: 10px;
+}
